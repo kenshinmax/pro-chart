@@ -1,10 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ProTabs from './components/ProTabs';
+
 
 export default class extends React.Component {
 	render() {
 		return (
+           
             <div>
+				 <ProTabs />
+				 
 				<div>
         	        <span className="tag">{Liferay.Language.get('portlet-namespace')}:</span> 
 					<span className="value">{this.props.portletNamespace}</span>
