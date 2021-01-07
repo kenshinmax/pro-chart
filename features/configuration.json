@@ -6,13 +6,13 @@
 		"fields": {
 			"fruit": {
 				"type": "string",
-				"name": "fruit",
-				"description": "fruit-help",
-				"default": "orange",
+				"name": "Chart Type",
+				"description": "Chart Type",
+				"default": "Line",
 				"options": {
-					"orange": "an-orange",
-					"pear": "a-pear",
-					"apple": "an-apple"
+					"line": "Line",
+					"bar": "Bar",
+					"pie": "Pie"
 				}
 			}
 		}
@@ -21,13 +21,13 @@
 		"fields": {
 			"drink": {
 				"type": "string",
-				"name": "drink",
-				"description": "drink-help",
-				"default": "water",
+				"name": "source",
+				"description": "Data source",
+				"default": "datawarehouse",
 				"options": {
-					"water": "water",
-					"wine": "wine",
-					"beer": "beer"
+					"datawarehouse": "Data warehouse",
+					"remote": "Remote",
+					"Other": "Other"
 				}
 			}
 		}

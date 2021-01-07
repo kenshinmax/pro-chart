@@ -28,13 +28,16 @@ export default function Prochart () {
                 borderWidth: 1
               }
             ]
-          }
+          },
+          options: {
+            maintainAspectRatio: false,
+        }
         });
       });
     
     return (
-      <div >
-        <canvas id="myChart" width="400" height="400"></canvas>
+      <div className="chart-container" styles={"position: relative; height:80vh; width:80vw"}>
+        <canvas id="myChart" ></canvas>
       </div>
     )
 
